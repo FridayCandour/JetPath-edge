@@ -1,0 +1,56 @@
+{
+  "name": "jetpath-edge",
+  "version": "1.0.0",
+  "description": "JetPath edge - A fast, seamless and minimalist framework for the edge. Embrace the speed and elegance of the next-gen server-side experience.",
+  "main": "dist/index.js",
+  "type": "module",
+  "files": [
+    "dist/index.d.ts",
+    "dist/primitives",
+    "dist/index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fridaycandour/jetpath.git"
+  },
+  "keywords": [
+    "web",
+    "framework",
+    "fast",
+    "simple",
+    "bunjs",
+    "nodejs",
+    "denojs",
+    "expressive",
+    "server",
+    "serverless",
+    "http",
+    "edge",
+    "cloudflare workers",
+    "workers",
+    "deno deploy"
+  ],
+  "author": "fridaycandour fridaycandours@gmail.com",
+  "license": "Apache",
+  "bugs": {
+    "url": "https://github.com/fridaycandour/jetpath/issues"
+  },
+  "homepage": "https://github.com/fridaycandour/jetpath#readme",
+  "scripts": {
+    "compile": "bun bundle.ts",
+    "dev": "deno run --allow-all tests/app.test.ts",
+    "build": "bun bundle.ts"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "bun": ">=0.1.0"
+  },
+  "private": false,
+  "op": 909,
+  "devDependencies": {
+    "@types/node": "^20.11.16"
+  },
+  "dependencies": {
+    "mime": "^4.0.1"
+  }
+}

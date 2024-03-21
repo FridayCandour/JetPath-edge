@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+#!/bin/bash
+ 
+
+
+echo "" 
+echo "" 
+echo  "  Packing ...."
+tsc # --emitDeclarationOnly
+npm pack
+mv **.tgz ~/
